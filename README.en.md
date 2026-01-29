@@ -12,9 +12,8 @@
 
 **Easy RocketChat deployment with Docker, SSL, and automatic configuration**
 
-Created by [Ramtin - NetAdminPlus](https://netadminplus.com)
+Created by [amirktb](https://katebsaber.ir)
 
-[YouTube](https://youtube.com/@netadminplus) • [Website](https://netadminplus.com) • [Instagram](https://instagram.com/netadminplus)
 
 </div>
 
@@ -55,7 +54,7 @@ Created by [Ramtin - NetAdminPlus](https://netadminplus.com)
 
 ### Recommended: Download and Run
 ```bash
-curl -fsSL https://raw.githubusercontent.com/netadminplus/rocketchat-one-command/main/rocketchat-installer.sh
+curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh
 chmod +x rocketchat-installer.sh
 sudo ./rocketchat-installer.sh
 ```
@@ -64,13 +63,13 @@ sudo ./rocketchat-installer.sh
 
 ⚠️ **Note**: The one-line method may have issues with interactive prompts. Use the download method above if you encounter problems.
 ```bash
-curl -fsSL https://raw.githubusercontent.com/netadminplus/rocketchat-one-command/main/rocketchat-installer.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh | sudo bash
 ```
 
 ### Or Manual Installation
 ```bash
 # Clone the repository
-git clone https://github.com/netadminplus/rocketchat-one-command.git
+git clone https://github.com/amirktb/rocketchat.git
 cd rocketchat-one-command
 
 # Make installer executable
@@ -87,7 +86,7 @@ sudo ./rocketchat-installer.sh
 The installer will:
 
 1. ✅ Check system requirements
-2. ✅ Ask for **Installation Directory** (Default: `~/netadminplus-rocketchat`)
+2. ✅ Ask for **Installation Directory** (Default: `~/amirktb-rocketchat`)
 3. ✅ Create necessary data folders
 4. ✅ Install/update Docker
 5. ✅ Verify DNS configuration for your domain
@@ -101,9 +100,9 @@ The installer will:
 
 ## 📂 Project Structure
 
-Default installation location is `~/netadminplus-rocketchat`:
+Default installation location is `~/amirktb-rocketchat`:
 ```
-netadminplus-rocketchat/
+amirktb-rocketchat/
 ├── docker-compose.yml       # Docker Compose configuration
 ├── .env                     # Environment variables & credentials
 ├── renew-cert.sh            # Maintenance script (run by Cron)
@@ -190,7 +189,7 @@ cp .env .env.backup
 ## 🛑 Stopping/Starting RocketChat
 ```bash
 # Navigate to install dir
-cd ~/netadminplus-rocketchat
+cd ~/amirktb-rocketchat
 
 # Stop services
 docker compose down
@@ -209,7 +208,7 @@ docker compose restart
 
 ## 🗑️ Uninstallation
 ```bash
-cd ~/netadminplus-rocketchat
+cd ~/amirktb-rocketchat
 
 # Stop and remove containers
 docker compose down -v
@@ -227,37 +226,9 @@ rm -rf netadminplus-rocketchat/
 
 ---
 
-## 🤝 Support
-
-- 📺 **YouTube**: [@netadminplus](https://youtube.com/@netadminplus)
-- 🌐 **Website**: [netadminplus.com](https://netadminplus.com)
-- 📸 **Instagram**: [@netadminplus](https://instagram.com/netadminplus)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/netadminplus/rocketchat-one-command/issues)
-
----
-
 ## 📝 License
 
 MIT License - Feel free to use and modify
-
----
-
-## 👨‍💻 Author
-
-**Ramtin - NetAdminPlus**
-
-Helping Iranian community deploy open-source communication tools
-
-[YouTube](https://youtube.com/@netadminplus) • [Website](https://netadminplus.com) • [Instagram](https://instagram.com/netadminplus)
-
----
-
-## ⭐ Show Your Support
-
-If this project helped you, please:
-- ⭐ Star this repository
-- 📺 Subscribe to [NetAdminPlus YouTube](https://youtube.com/@netadminplus)
-- 📢 Share with your friends and colleagues
 
 ---
 

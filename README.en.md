@@ -54,7 +54,7 @@ Created by [amirktb](https://katebsaber.ir)
 
 ### Recommended: Download and Run
 ```bash
-curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh
+curl -fsSL https://raw.githubusercontent.com/amirkateb/rocketchat/main/rocketchat-installer.sh
 chmod +x rocketchat-installer.sh
 sudo ./rocketchat-installer.sh
 ```
@@ -63,13 +63,13 @@ sudo ./rocketchat-installer.sh
 
 ⚠️ **Note**: The one-line method may have issues with interactive prompts. Use the download method above if you encounter problems.
 ```bash
-curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/amirkateb/rocketchat/main/rocketchat-installer.sh | sudo bash
 ```
 
 ### Or Manual Installation
 ```bash
 # Clone the repository
-git clone https://github.com/amirktb/rocketchat.git
+git clone https://github.com/amirkateb/rocketchat.git
 cd rocketchat-one-command
 
 # Make installer executable

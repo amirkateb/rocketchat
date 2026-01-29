@@ -177,7 +177,7 @@ fi
 print_step "Downloading Configuration Template"
 TEMPLATE_FILE="docker-compose.yml.template"
 rm -f "$TEMPLATE_FILE"
-TEMPLATE_URL="https://raw.githubusercontent.com/netadminplus/rocketchat-one-command/main/docker-compose.yml.template"
+TEMPLATE_URL="https://raw.githubusercontent.com/amirkateb/rocketchat/main/docker-compose.yml.template"
 
 if curl -s -f -O "$TEMPLATE_URL"; then
     print_success "Template downloaded."

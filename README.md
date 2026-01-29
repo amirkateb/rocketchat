@@ -51,7 +51,7 @@
 </div>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh
+curl -fsSL https://raw.githubusercontent.com/amirkateb/rocketchat/main/rocketchat-installer.sh
 chmod +x rocketchat-installer.sh
 sudo ./rocketchat-installer.sh
 ```
@@ -65,7 +65,7 @@ sudo ./rocketchat-installer.sh
 </div>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/amirkateb/rocketchat/main/rocketchat-installer.sh | sudo bash
 ```
 
 <div dir="rtl">
@@ -75,7 +75,7 @@ curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-
 </div>
 
 ```bash
-git clone https://github.com/amirktb/rocketchat.git
+git clone https://github.com/amirkateb/rocketchat.git
 cd rocketchat-one-command
 chmod +x rocketchat-installer.sh
 sudo ./rocketchat-installer.sh

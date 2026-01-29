@@ -528,18 +528,4 @@ If everything is broken:
 
 ---
 
-## 📞 Get Help
-
-If you're still stuck:
-
-- 📺 **YouTube**: [@netadminplus](https://youtube.com/@netadminplus) - Tutorial videos
-- 🌐 **Website**: [netadminplus.com](https://netadminplus.com) - Contact form
-- 📸 **Instagram**: [@netadminplus](https://instagram.com/netadminplus) - DM for support
-- 🐛 **GitHub Issues**: Report bugs on the repository
-- 💬 **RocketChat Community**: [forums.rocket.chat](https://forums.rocket.chat)
-
----
-
-**Created by Ramtin - NetAdminPlus**
-
 *Helping the Iranian tech community deploy reliable communication tools* 🚀

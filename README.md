@@ -12,9 +12,7 @@
 
 **نصب آسان RocketChat با Docker، SSL و پیکربندی خودکار**
 
-[رامتین - نت ادمین پلاس](https://netadminplus.com)
-
-[یوتیوب](https://youtube.com/@netadminplus) • [وبسایت](https://netadminplus.com) • [اینستاگرام](https://instagram.com/netadminplus)
+[amirktb](https://katebsaber.ir)
 
 ---
 
@@ -53,7 +51,7 @@
 </div>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/netadminplus/rocketchat-one-command/main/rocketchat-installer.sh
+curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh
 chmod +x rocketchat-installer.sh
 sudo ./rocketchat-installer.sh
 ```
@@ -67,7 +65,7 @@ sudo ./rocketchat-installer.sh
 </div>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/netadminplus/rocketchat-one-command/main/rocketchat-installer.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/amirktb/rocketchat/main/rocketchat-installer.sh | sudo bash
 ```
 
 <div dir="rtl">
@@ -77,7 +75,7 @@ curl -fsSL https://raw.githubusercontent.com/netadminplus/rocketchat-one-command
 </div>
 
 ```bash
-git clone https://github.com/netadminplus/rocketchat-one-command.git
+git clone https://github.com/amirktb/rocketchat.git
 cd rocketchat-one-command
 chmod +x rocketchat-installer.sh
 sudo ./rocketchat-installer.sh
@@ -92,7 +90,7 @@ sudo ./rocketchat-installer.sh
 اسکریپت این کارها را انجام می‌دهد:
 
 1. بررسی منابع سیستم (رم، CPU)
-2. تعیین مسیر نصب (پیش‌فرض: `~/netadminplus-rocketchat`)
+2. تعیین مسیر نصب (پیش‌فرض: `~/amirktb-rocketchat`)
 3. ایجاد ساختار پوشه‌ها (`data/mongodb`, `data/uploads`, ...)
 4. دریافت اطلاعات دامنه و بررسی DNS
 5. نصب یا آپدیت Docker
@@ -106,12 +104,12 @@ sudo ./rocketchat-installer.sh
 
 ## ساختار فایل‌ها
 
-مسیر پیش‌فرض نصب `~/netadminplus-rocketchat` است:
+مسیر پیش‌فرض نصب `~/amirkyb-rocketchat` است:
 
 </div>
 
 ```
-netadminplus-rocketchat/
+amirktb-rocketchat/
 ├── docker-compose.yml       # تنظیمات Docker Compose
 ├── .env                     # متغیرها و رمزها
 ├── renew-cert.sh            # اسکریپت تمدید خودکار (توسط Cron اجرا می‌شود)
@@ -253,16 +251,6 @@ rm -rf netadminplus-rocketchat/
 
 <div dir="rtl">
 
----
-
-## پشتیبانی
-
-- 📺 **یوتیوب**: [@netadminplus](https://youtube.com/@netadminplus)
-- 🌐 **وبسایت**: [netadminplus.com](https://netadminplus.com)
-- 📸 **اینستاگرام**: [@netadminplus](https://instagram.com/netadminplus)
-- 🐛 **گزارش مشکل**: [GitHub Issues](https://github.com/netadminplus/rocketchat-one-command/issues)
-
----
 
 ## لایسنس
 
@@ -272,20 +260,8 @@ MIT License - استفاده و تغییر آزاد است
 
 ## سازنده
 
-**رامتین رحمانی‌نژاد - نت ادمین پلاس**
+*amirktb**
 
-کمک به جامعه ایرانی برای استقرار ابزارهای ارتباطی متن‌باز
-
-[یوتیوب](https://youtube.com/@netadminplus) • [وبسایت](https://netadminplus.com) • [اینستاگرام](https://instagram.com/netadminplus)
-
----
-
-## حمایت از پروژه
-
-اگر این پروژه به شما کمک کرد:
-- ⭐ به این ریپازیتوری ستاره بدهید
-- 📺 کانال [نت ادمین پلاس](https://youtube.com/@netadminplus) را سابسکرایب کنید
-- 📢 با دوستان و همکاران به اشتراک بگذارید
 
 ---
 
